@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\testLocalRepos\\Predevelopment_Noc6x\\NetSuite\\BillingProvidersApp\\BillingProvidersApp\\BillingProvidersApp.csproj": {}
+  },
+  "projects": {
+    "D:\\testLocalRepos\\Predevelopment_Noc6x\\NetSuite\\BillingProvidersApp\\BillingProvidersApp\\BillingProvidersApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\testLocalRepos\\Predevelopment_Noc6x\\NetSuite\\BillingProvidersApp\\BillingProvidersApp\\BillingProvidersApp.csproj",
+        "projectName": "BillingProvidersApp",
+        "projectPath": "D:\\testLocalRepos\\Predevelopment_Noc6x\\NetSuite\\BillingProvidersApp\\BillingProvidersApp\\BillingProvidersApp.csproj",
+        "packagesPath": "C:\\Users\\oleh.kornieiev\\.nuget\\packages\\",
+        "outputPath": "D:\\testLocalRepos\\Predevelopment_Noc6x\\NetSuite\\BillingProvidersApp\\BillingProvidersApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\oleh.kornieiev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\nuget.local": {},
+          "http://nuget.server.devtmx01.corrigo.com/nuget/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Celigo.ServiceManager.NetSuite": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Connections": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Extensions.Logging.EventLog": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "System.Runtime.Caching": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
